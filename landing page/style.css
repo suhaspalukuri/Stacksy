@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Monda', sans-serif;
+}
+.navbar{
+    background-color: #2FC4E4;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 1.2%;
+    padding-right: 10%;
+    display: flex;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    right: 18%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.navbar ul li a:hover{
+    
+    color: #006c84;
+}
+.navbar .logo{
+    color: white;
+    float: left;
+    padding-left: 10%;
+    margin-top: 0.7%;
+    font-size: 35px;
+}
+ul li a.signup{
+    background-color: #ffffff;
+    border: 2px solid #006c84;
+    border-radius: 4px; 
+    padding: 2px 5px;
+    color: #006c84;
+}
+ul li a.signup:hover{
+    background-color: #006c84;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+div .landing{
+    background-color: #2FC4E4;
+    text-align: center;
+   
+    height: 500px; 
+}
+div .main-div{
+    padding-top: 200px;
+    text-align: center;
+    height: 350px;  
+    background-color: #2FC4E4;
+    align-items: center;
+    vertical-align: middle;
+}
+.main-div h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+.main-div h2 span{
+    color: #006c84;
+
+}
+.main-div p{
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.main-div button{
+  text-align: center;
+  border-radius: 5px;
+  border-color: transparent;
+  background: #fff;
+  color: #004655;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  border: 2px solid #004655;
+
+}
+.main-div button:hover{
+    background: #004655;
+    color: #fff;
+    border: transparent;
+}
+.landing2{
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+}
+.text1, .text3{
+    float: left;
+}
+.text2{
+    float: right;
+}
+.part1 img, .part3 img{
+    float: right;
+}
+.part2 img{
+    float: left;
+}
+.part1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    align-content: center;
+}
+.part2{
+    padding-top: 200px;
+    padding-bottom: 260px;
+}
+.part3{
+    padding-bottom: 320px;
+}
+.text1 h2, .text2 h2, .text3 h2{
+    color: #004655;
+    padding-bottom: 8px;
+}
+.text1 p, .text2 p, .text3 p{
+    padding-bottom: 15px;
+}
+.text1 button, .text2 button, .text3 button{
+    background-color: #006c84;
+    border: transparent;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    color: #fff;
+}
+.text1 button:hover, .text2 button:hover, .text3 button:hover{
+    color: #006c84;
+    background-color: #fff;
+    border: 2px solid #006c84;
+    cursor: pointer;
+    font-weight: bold;
+}
+.landing3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.landing3 p{
+    font-size: 20px;
+    color: #004655;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.landing3 form input{
+    width: 240px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #baf2ff;
+    border: transparent;
+    font-size: 15px;    
+}
+::placeholder{
+    color: #004d5e5a;
+}
+.landing3 button{
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2FC4E4;
+    cursor: pointer;
+}
+.landing3 button:hover{
+    background-color: #00667d;
+    color: #fff;
+}
+.landing3 form{
+    display: inline-block;
+}
+.lastland{
+    width: 100%;
+    height: 60px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: larger;
+    width: 12.5px;
+    height: 12.5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 8px;
+    border-radius: 50%;
+    float: right;
+}
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-facebook {
+    background: #00667d;
+    color: white;
+    align-items: center;
+}
+.fa-twitter {
+    background: #00667d;
+    color: white;
+}
+.fa-linkedin {
+    background: #00667d;
+    color: white;
+}
+.lastland h2{
+    font-size: 40px;
+    float: left;
+    color: #00667d;
+}
